@@ -1,28 +1,28 @@
 /* CARD FOR PRODUCTS */
-
 .cardContainer {
     position: relative;
-        display: inline-block;
+    display: inline-block;
     box-shadow: 1px 6px 9px 1px rgba(99,99,99,0.66);
     -webkit-box-shadow: 1px 6px 9px 1px rgba(99,99,99,0.66);
     -moz-box-shadow: 1px 6px 9px 1px rgba(99,99,99,0.66);
-    transition: 0.4s;
-
+    transition: 0.3s;
 }
 .cardContainer:hover {
     box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
     -webkit-box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
     -moz-box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
 }
+
+/* IMAGE IN THE CARD */
 .cardContainer .hoverImg {
     display: none;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    transition: 0.5s;
-
 }
 .cardContainer:hover .hoverImg {
     display: inline;
+}
+
+/* <a> */
+.aCardTitle {
+    text-decoration: none;
 }
