@@ -1,3 +1,5 @@
+/* CARD FOR PRODUCTS */
+
 .cardContainer {
     position: relative;
         display: inline-block;
@@ -12,7 +14,6 @@
     -webkit-box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
     -moz-box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
 }
-
 .cardContainer .hoverImg {
     display: none;
     position: absolute;
@@ -22,7 +23,6 @@
     transition: 0.5s;
 
 }
-
 .cardContainer:hover .hoverImg {
     display: inline;
 }
