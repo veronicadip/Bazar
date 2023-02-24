@@ -1,0 +1,13 @@
+.cardShadow {
+    box-shadow: 1px 6px 9px 1px rgba(99,99,99,0.66);
+    -webkit-box-shadow: 1px 6px 9px 1px rgba(99,99,99,0.66);
+    -moz-box-shadow: 1px 6px 9px 1px rgba(99,99,99,0.66);
+    transition: 0.5s;
+}
+
+.cardShadow:hover {
+    box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
+    -webkit-box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
+    -moz-box-shadow: 6px 9px 9px 1px rgba(99,99,99,0.66);
+}
+
