@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -61,7 +61,41 @@
         </nav>
     </header>
     <main>
-        <h1>MAIN</h1>
+        <div class="d-flex justify-content-center flex-wrap m-5">
+            <div class="w-25 m-5">
+                <div id="carouselProductCuchara" class="carousel carousel-fade carousel-dark slide w-100" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/utensilios/cuchara.webp" class="d-block w-100" alt="Cuchara de madera">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/utensilios/cuchara-hover.webp" class="d-block w-100" alt="Cuchara de madera">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductCuchara" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProductCuchara" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="w-50 m-5">
+                <div class="d-flex flex-column justify-content-evenly w-100">
+                    <div>
+                        <h2 class="card-title">Cuchara de Madera</h2>
+                        <h3 class="card-title">$799</h3>
+                        <p class="card-text">Cuchara De Madera 30 Cm Utensilio De Cocina</p>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
     <footer class="bg-dark text-center text-white mt-5">
         <div class="container p-3 pb-0">
