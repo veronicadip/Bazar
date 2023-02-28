@@ -15,52 +15,119 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <a class="dropdown-item" href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+        <!-- header1 -->
+        <div class="header1">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./nosotros.html">Nosotros</a>
+                    <a class="navbar-brand" href="./error404.html">Preguntas frecuentes</a>
+                    <a class="navbar-brand" href="./contacto.html">Contacto</a>
                 </div>
+            </nav>
+        </div>
+
+        <!-- header2 -->
+        <div class="header2">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/logo-bazar.webp" alt="Bazar" width="120" height="70">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./ingresar.html">
+                                    <button type="button" class="btn btn-outline-secondary">Ingresar</button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./registro.html">
+                                    <button type="button" class="btn btn-outline-success">Registrarse</button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./carrito.html">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/711/711979.png" alt="ShoppingCart" width="40" height="40">
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="¿Qué estas buscando?" aria-label="Search">
+                            <a href="./error404.html">
+                                <button type="button" class="btn btn-outline-primary">Buscar</button>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- header3 -->
+
+        <div class="header3">
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    Cocina
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="./utensilios.html">Utensillos de cocina</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Ollas y Sartenes</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Almacenamiento y Organización</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Repostería</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    Mesa
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Vajillas</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Vasos, Copas y Jarras</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Cubiertos</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Café y Té</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./error404.html">Accesorios de Mesa</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="./baño.html">
+                <button class="btn btn-secondary toggle" type="button" data-bs-auto-close="outside" aria-expanded="false">
+                    Baño
+                </button>
+            </a>
+            <a href="./error404.html">
+                <button class="btn btn-secondary toggle" type="button" data-bs-auto-close="false" aria-expanded="false">
+                    Decoración
+                </button>
+            </a>
+            <a href="./error404.html">
+                <button class="btn btn-secondary toggle" type="button" data-bs-auto-close="true" aria-expanded="false">
+                    Exterior
+                </button>
+            </a>
+        </div>
     </header>
+
     <main>
         <!-- PORTADA CATEGORIA BAÑO -->
         <div class="d-flex justify-content-center my-5">
@@ -75,10 +142,10 @@
                 <img src="../assets/baño/laundry-hover.webp" class="hoverImg card-img-top" alt="Laundry plegable" style="border-bottom-color: #f0f0f0;
                 border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Laundry Plegable</a>
+                    <a href="./laundry.html" class="aCardTitle h4">Laundry Plegable</a>
                     <h4 class="mt-2">$11.989</h4>
                     <p class="card-text">Laundry para ropa plegable 40 x 30 x 60 cm</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- REPISA -->
@@ -88,10 +155,10 @@
                 <img src="../assets/baño/repisa-hover.webp" class="hoverImg card-img-top" alt="Repisa de vidrio" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Repisa de Vidrio</a>
+                    <a href="./error404.html" class="aCardTitle h4">Repisa de Vidrio</a>
                     <h4 class="mt-2">$3.899</h4>
                     <p class="card-text">Estante Repisa Vidrio Rectangular 40 cm</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- JABONERA -->
@@ -101,10 +168,10 @@
                 <img src="../assets/baño/jabonera-hover.webp" class="hoverImg card-img-top" alt="Jabonera de acero" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Jabonera de Acero</a>
+                    <a href="./error404.html" class="aCardTitle h4">Jabonera de Acero</a>
                     <h4 class="mt-2">$499</h4>
                     <p class="card-text">Jabonera De Acero Cromado Para Baño/Cocina</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- CESTO -->
@@ -114,10 +181,10 @@
                 <img src="../assets/baño/cesto-hover.webp" class="hoverImg card-img-top" alt="Cesto de plastico" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Cesto de Ropa</a>
+                    <a href="./error404.html" class="aCardTitle h4">Cesto de Ropa</a>
                     <h4 class="mt-2">$2.999</h4>
                     <p class="card-text">Cesto Ropa Plastico 50 Litros Con Tapa Colores</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- CANASTO -->
@@ -127,10 +194,10 @@
                 <img src="../assets/baño/canasto-hover.webp" class="hoverImg card-img-top" alt="Canasto de plastico" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Canasto Organizador</a>
+                    <a href="./error404.html" class="aCardTitle h4">Canasto Organizador</a>
                     <h4 class="mt-2">$4.999</h4>
                     <p class="card-text">Canasto Organizador Plástico Grande 32 Litros</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- CARRO -->
@@ -140,10 +207,10 @@
                 <img src="../assets/baño/carro-hover.webp" class="hoverImg card-img-top" alt="Carro organizador blanco" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Carro Organizador</a>
+                    <a href="./error404.html" class="aCardTitle h4">Carro Organizador</a>
                     <h4 class="mt-2">$29.999</h4>
                     <p class="card-text">Carro Auxiliar Organizador Multiusos 3 Niveles Con Ruedas</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- ESCOBILLA -->
@@ -153,10 +220,10 @@
                 <img src="../assets/baño/escobilla-hover.webp" class="hoverImg card-img-top" alt="Escobilla de baño con porta cepillo" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Escobilla de Baño</a>
+                    <a href="./error404.html" class="aCardTitle h4">Escobilla de Baño</a>
                     <h4 class="mt-2">$1.999</h4>
                     <p class="card-text">Escobilla De Baño Porta Cepillo Limpia Inodoro Calidad</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- CORTINA -->
@@ -166,10 +233,10 @@
                 <img src="../assets/baño/cortina-hover.webp" class="hoverImg card-img-top" alt="Cortina de baño blanca" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Cortina de Plastico</a>
+                    <a href="./error404.html" class="aCardTitle h4">Cortina de Plastico</a>
                     <h4 class="mt-2">$699</h4>
                     <p class="card-text">Protector Plástico Para Cortina Baño 1.80 cm X 1.80 cm</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- TACHO -->
@@ -179,10 +246,10 @@
                 <img src="../assets/baño/tacho-hover.webp" class="hoverImg card-img-top" alt="Tacho para basura de acero inoxidable" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Tacho de Basura</a>
+                    <a href="./error404.html" class="aCardTitle h4">Tacho de Basura</a>
                     <h4 class="mt-2">$7.999</h4>
                     <p class="card-text">Tacho Cesto de Basura Acero Inoxidable Con Pedal 3 Litros</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- BALANZA -->
@@ -192,10 +259,10 @@
                 <img src="../assets/baño/balanza-hover.webp" class="hoverImg card-img-top" alt="Balanza digital de vidrio templado" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Balanza Digital</a>
+                    <a href="./error404.html" class="aCardTitle h4">Balanza Digital</a>
                     <h4 class="mt-2">$5.199</h4>
                     <p class="card-text">Balanza Digital De Baño 180 Kg Vidrio Templado</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- CESTO 2 -->
@@ -205,10 +272,10 @@
                 <img src="../assets/baño/cesto2-hover.webp" class="hoverImg card-img-top" alt="Cesto plegable para ropa sucia" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Cesto Plegable</a>
+                    <a href="./error404.html" class="aCardTitle h4">Cesto Plegable</a>
                     <h4 class="mt-2">$3.999</h4>
                     <p class="card-text">Cesto Laundry Organizador Ropa Sucia Premium Plegable</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
             <!-- TACHO 2 -->
@@ -218,10 +285,10 @@
                 <img src="../assets/baño/tacho2-hover.webp" class="hoverImg card-img-top" alt="Tacho para basura de acero inoxidable" style="border-bottom-color: #f0f0f0;
                     border-bottom-style: inset;">
                 <div class="card-body">
-                    <a href="./error.html" class="aCardTitle h4">Tacho de Basura</a>
+                    <a href="./error404.html" class="aCardTitle h4">Tacho de Basura</a>
                     <h4 class="mt-2">$9.999</h4>
                     <p class="card-text">Tacho Cesto de Basura Acero Inoxidable Con Pedal 5 Litros</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="./carrito.html" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
@@ -230,21 +297,21 @@
             <nav aria-label="Page navigation example" class="mt-4">
                 <ul class="pagination">
                     <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
+                        <a class="page-link disabled" href="#" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
                     <li class="page-item">
-                        <a class="page-link" href="#">1</a>
+                        <a class="page-link active" href="#">1</a>
                     </li>
                     <li class="page-item">
-                        <a class="page-link" href="../pages/error.html">2</a>
+                        <a class="page-link" href="./error404.html">2</a>
                     </li>
                     <li class="page-item">
-                        <a class="page-link" href="../pages/error.html">3</a>
+                        <a class="page-link" href="./error404.html">3</a>
                     </li>
                     <li class="page-item">
-                        <a class="page-link" href="../pages/error.html" aria-label="Next">
+                        <a class="page-link" href="./error404.html" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>
                     </li>
@@ -252,14 +319,48 @@
             </nav>
         </div>
     </main>
-    <footer class="bg-dark text-center text-white mt-5">
-        <div class="container p-3 pb-0">
-            <section class="mb-4">
-                <h2>footer</h2>
-            </section>
+    <footer>
+        <div class="footer2">
+            <div class="subir">
+                <a href="#" class="btn-wsp">
+                    <img src="https://cdn-icons-png.flaticon.com/512/44/44674.png" alt="FlechaArriba" width="15" height="15">
+                </a>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <a href="../index.html">
+                            <img src="../assets/logo-bazar.webp" alt="Bazar" width="200" height="130">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="redessocialesfooter">
+                            Redes sociales
+                            <p>
+                                <a href="./error404.html">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                                        alt="Instagram" width="30" height="30">
+                                </a>
+                                <a href="./error404.html">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/599px-Logo_de_Facebook.png" alt="Facebook"
+                                        width="30" height="30">
+                                </a>
+                                <a href="./error404.html">
+                                    <img src="https://www.brandemia.org/wp-content/uploads/2012/06/twitter_logo_principal.jpg" alt="Twitter" width="30" height="30">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contactofooter">
+                            Contacto
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2023 Copyright: RollingCode
+        <div class="footer3">
+            &copy;Todos los derechos reservados. Bazar-2023
         </div>
     </footer>
 </body>
