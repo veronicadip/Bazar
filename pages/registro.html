@@ -2,14 +2,239 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BS VÍA CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous">
+  <!-- CSS -->
+  <link href="../styles/registro.css" rel="stylesheet" type="text/css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- TÍTULO -->
+  <title>Registro</title>
 </head>
 
 <body>
-    <H1>REGISTRO</H1>
+  <!-- HEADER -->
+  <header>
+    <!-- header1 -->
+    <div class="header1">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./nosotros.html">Nosotros</a>
+          <a class="navbar-brand" href="./error404.html">Preguntas frecuentes</a>
+          <a class="navbar-brand" href="./contacto.html">Contacto</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- header2 -->
+    <div class="header2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/logo-bazar.webp" alt="Bazar" width="120" height="70">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./ingresar.html">
+                  <button type="button" class="btn btn-outline-secondary">Ingresar</button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./registro.html">
+                  <button type="button" class="btn btn-outline-success">Registrarse</button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./carrito.html">
+                  <img src="https://cdn-icons-png.flaticon.com/512/711/711979.png" alt="ShoppingCart" width="40" height="40">
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Qué estas buscando?" aria-label="Search">
+              <a href="./error404.html">
+                <button type="button" class="btn btn-outline-primary">Buscar</button>
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- header3 -->
+
+    <div class="header3">
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+          Cocina
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="./utensilios.html">Utensillos de cocina</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Ollas y Sartenes</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Almacenamiento y Organización</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Repostería</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+          Mesa
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="./error404.html">Vajillas</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Vasos, Copas y Jarras</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Cubiertos</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Café y Té</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="./error404.html">Accesorios de Mesa</a>
+          </li>
+        </ul>
+      </div>
+      <a href="./baño.html">
+        <button class="btn btn-secondary toggle" type="button" data-bs-auto-close="outside" aria-expanded="false">
+          Baño
+        </button>
+      </a>
+      <a href="./error404.html">
+        <button class="btn btn-secondary toggle" type="button" data-bs-auto-close="false" aria-expanded="false">
+          Decoración
+        </button>
+      </a>
+      <a href="./error404.html">
+        <button class="btn btn-secondary toggle" type="button" data-bs-auto-close="true" aria-expanded="false">
+          Exterior
+        </button>
+      </a>
+    </div>
+  </header>
+
+  <!-- REGISTRO -->
+  <div class="container bg-light p-5">
+
+    <div class="container bg-light d-flex justify-content-md-center mt-4 mb-5">
+      <h1>Crear cuenta</h1>
+    </div>
+
+    <div class="container d-flex bg-light">
+      <form class="row g-3 justify-content-md-center">
+        <div class="col-md-8 mt-5">
+          <label for="validationDefault01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+        </div>
+        <div class="col-md-8">
+          <label for="validationDefault02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+        </div>
+        <div class="col-md-8">
+          <label for="validationDefaultUsername" class="form-label">Usuario</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" placeholder="ejemplo1234"
+              required>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <label for="inputEmail3" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail3" placeholder="ejemplo123@gmail.com" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputphone" class="form-label">Número de teléfono</label>
+          <input type="tel" minlength="10" maxlength="10" class="form-control" placeholder="ej: 3816478691" id="inputphone" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputadress" class="form-label">Domicilio</label>
+          <input type="text" class="form-control" id="inputadress" placeholder="Av. Sarmiento 1234" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputcode" class="form-label">Código postal</label>
+          <input type="number" min="0000" max="9999" class="form-control" id="inputcode" placeholder="4000" required>
+        </div>
+        <div class="col-md-8">
+          <label for="inputpassword" class="form-label">Contraseña</label>
+          <input type="password" minlength="10" maxlength="15" class="form-control" id="inputpassword" required>
+        </div>
+        <div class="d-grid gap-2 col-md-5 mx-auto mb-4 mt-5">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer2">
+      <div class="subir">
+        <a href="#" class="btn-wsp">
+          <img src="https://cdn-icons-png.flaticon.com/512/44/44674.png" alt="FlechaArriba" width="15" height="15">
+        </a>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="../index.html">
+              <img src="../assets/logo-bazar.webp" alt="Bazar" width="200" height="130">
+            </a>
+          </div>
+          <div class="col">
+            <div class="redessocialesfooter">
+              Redes sociales
+              <p>
+                <a href="./error404.html">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                    alt="Instagram" width="30" height="30">
+                </a>
+                <a href="./error404.html">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/599px-Logo_de_Facebook.png" alt="Facebook"
+                    width="30" height="30">
+                </a>
+                <a href="./error404.html">
+                  <img src="https://www.brandemia.org/wp-content/uploads/2012/06/twitter_logo_principal.jpg" alt="Twitter" width="30" height="30">
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="contactofooter">
+              Contacto
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer3">
+      &copy;Todos los derechos reservados. Bazar-2023
+    </div>
+  </footer>
+
+  <!-- JS VÍA CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
