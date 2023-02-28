@@ -15,6 +15,12 @@
     border: none;
     box-shadow: 5px 6px 6px 2px #e9ecef;
     border-radius: 4px;
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.30);
+    -moz-box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.30);
 }
 .user-img{
     margin-top: 4px;
