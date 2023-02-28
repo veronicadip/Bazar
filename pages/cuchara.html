@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/producto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous">
     <title>Cuchara</title>
@@ -13,8 +14,8 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <header class="mb-5 pb-1">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -60,9 +61,9 @@
             </div>
         </nav>
     </header>
-    <main class="mb-5 pb-5">
+    <main class="mb-5 py-5">
         <!-- PRODUCT CONTAINER -->
-        <div class="d-flex justify-content-center flex-wrap m-5" style="height: auto;">
+        <div class="productContainer d-flex justify-content-center flex-wrap m-5" style="height: auto;">
             <!-- CAROUSEL -->
             <div class="w-auto mb-5 mx-5 h-50">
                 <div id="carouselProductCuchara" class="carousel carousel-fade carousel-dark slide" data-bs-ride="carousel" style="max-width: 450px !important;">
@@ -92,8 +93,78 @@
                         <h2 class="card-title mb-3">$799</h2>
                         <p class="card-text mt-4 w-75" style="font-size: 18px">Cuchara De Madera 30 Cm Utensilio De Cocina</p>
                     </div>
-                    <div class="mt-5">
+                    <div class="mt-5 mb-5">
                         <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COMMENT SECTION -->
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <div class="headings d-flex justify-content-between align-items-center mb-3">
+                        <h5>Comentarios</h5>
+                    </div>
+                    <!-- COMMENT 1 -->
+                    <div class="card p-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="user d-flex flex-row align-items-center">
+                                <img src="../assets/profile-pic.jpeg" width="30" class="user-img rounded-circle me-2" alt="Foto de perfil">
+                                <span>
+                                    <small class="font-weight-bold text-primary">Marta</small>
+                                </span>
+                            </div>
+                            <small>27/02/2023</small>
+                        </div>
+                        <div class="mt-1">
+                            <small class="font-weight-bold">Muy buena calidad y excelente precio</small>
+                        </div>
+                    </div>
+                    <!-- COMMENT 2 -->
+                    <div class="card p-3 mt-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="user d-flex flex-row align-items-center">
+                                <img src="../assets/profile-pic2.jpeg" width="30" class="user-img rounded-circle me-2" alt="Foto de perfil">
+                                <span>
+                                    <small class="font-weight-bold text-primary">Carlos</small>
+                                </span>
+                            </div>
+                            <small>18/02/2023</small>
+                        </div>
+                        <div class="mt-1">
+                            <small class="font-weight-bold">Buen producto, quedé conforme</small>
+                        </div>
+                    </div>
+                    <!-- COMMENT 3 -->
+                    <div class="card p-3 mt-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="user d-flex flex-row align-items-center">
+                                <img src="../assets/profile-pic3.jpeg" width="30" class="user-img rounded-circle me-2" alt="Foto de perfil">
+                                <span>
+                                    <small class="font-weight-bold text-primary">Roberto</small>
+                                </span>
+                            </div>
+                            <small>05/02/2023</small>
+                        </div>
+                        <div class="mt-1">
+                            <small class="font-weight-bold">Madera de buena calidad</small>
+                        </div>
+                    </div>
+                    <!-- COMMENT 4 -->
+                    <div class="card p-3 mt-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="user d-flex flex-row align-items-center">
+                                <img src="../assets/profile-pic4.jpeg" width="30" class="user-img rounded-circle me-2" alt="Foto de perfil">
+                                <span>
+                                    <small class="font-weight-bold text-primary">Luisa</small>
+                                </span>
+                            </div>
+                            <small>26/01/2023</small>
+                        </div>
+                        <div class="mt-1">
+                            <small class="font-weight-bold">Muy útil, una lástima que no tengan unas mas grandes</small>
+                        </div>
                     </div>
                 </div>
             </div>
