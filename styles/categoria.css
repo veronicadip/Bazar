@@ -93,10 +93,36 @@
     display: inline;
 }
 
+/* BUY BUTTON */
+.comprarButton {
+  background-color: #A27B5C !important;
+  border: #A27B5C !important;
+}
+.comprarButton:hover {
+  background-color: #856449 !important;
+  border: #856449 !important;
+}
+.comprarButton:active {
+  background-color: #c5a081 !important;
+  border: #c5a081 !important;
+}
 /* <a> */
 .aCardTitle {
     text-decoration: none;
 }
+
+/* PAGINATION */
+.pagination .page-link {
+  color: black;
+}
+.pagination .page-link:hover {
+  color: #5a9ba1;
+}
+.active {
+  background-color: #3F4E4F !important;
+  border: #3F4E4F !important;
+}
+
 
 /* FOOTER */
 

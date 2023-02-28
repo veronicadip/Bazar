@@ -141,10 +141,6 @@
   background-color: #856449 !important;
   border: #856449 !important;
 }
-.comprarButton:active {
-  background-color: #c5a081 !important;
-  border: #c5a081 !important;
-}
 
 /* COMMENT */
 .card {
