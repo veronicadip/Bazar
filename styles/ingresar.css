@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  padding: 1vw;
+  margin: 1vw;
+  background-color: rgb(220, 215, 201);
+  border: solid black;
+  border-radius: 2vw;
+  box-shadow: 3px 2px 25px -1px #141412;
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2vw;
+}
+
+main .columnas{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+}
+
+.col .bazar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+}
+
+@media (max-width: 440px){
+.col .bazar{
+  width: 70vw;
+  height: 50vw;
+}
+main{
+  font-size: medium;
+}
+}

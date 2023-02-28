@@ -1,15 +1,4 @@
-/* @media (min-width: 860px) {
-    main {
-    background-color: #DCD7C9;
-    }
-    .productContainer {
-        background-color: #ffffff;
-    }
-    .commentSection {
-        background-color: #ffffff;
-    }
-} */
-* HEADER */
+/* HEADER */
 
 /* HEADER 1 */
 
@@ -139,8 +128,18 @@
     max-width: 450px !important;
 }
 
-/* COMMENT SECTION */
-.commentSection {
+/* BUY BUTTON */
+.comprarButton {
+  background-color: #A27B5C !important;
+  border: #A27B5C !important;
+}
+.comprarButton:hover {
+  background-color: #856449 !important;
+  border: #856449 !important;
+}
+.comprarButton:active {
+  background-color: #c5a081 !important;
+  border: #c5a081 !important;
 }
 
 /* COMMENT */
@@ -148,12 +147,12 @@
     border: none;
     box-shadow: 5px 6px 6px 2px rgba(0,0,0,0.30);
     border-radius: 4px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .card:hover {
-    box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.40);
-    -webkit-box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.40);
-    -moz-box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.40);
+  box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow: 8px 8px 27px -4px rgba(0,0,0,0.7);
 }
 .user-img{
     margin-top: 4px;
