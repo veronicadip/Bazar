@@ -81,6 +81,7 @@
 .main2{
   padding-left: 10vw;
   padding-right: 10vw;
+  overflow-x: auto;
 }
 
 body{
