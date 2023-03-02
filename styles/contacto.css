@@ -72,7 +72,16 @@ iframe {
       .header3 button:hover{
         color: black;
       }
-    
+
+/* MAIN */
+
+body {
+  background-color: #DCD7C9 !important;
+}
+.colorTitulos {
+  color: #2C3639 !important;
+}
+
 
 
 /* FOOTER */
