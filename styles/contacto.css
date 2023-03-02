@@ -1,0 +1,204 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+iframe {
+        width: 100%;
+        height: 450px;
+}
+
+/* HEADER */
+
+/* HEADER 1 */
+
+.header1{
+        background-color:rgb(162, 123, 92);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 2vw;
+      }
+      
+      .header1 a{
+        color: rgb(0, 0, 0);
+        font-size: small;
+        display: flex;
+        justify-content: flex-start;
+      }
+      
+      .header1 a:hover{
+        color: rgb(255, 255, 255);
+      }
+      
+      /* HEADER 2 */
+      
+      
+      .nav-link button{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 2px 25px -1px #141412;
+      }
+      
+      .navbar-brand img{
+        border: solid black;
+        margin-left:  20px;
+      }
+      .header2 form{
+        width: 65vw;
+        padding-right: 10vw;
+        padding-left: 2vw;
+      }
+      
+      
+      /* HEADER3 */
+      
+      .header3{
+        background-color:rgb(162, 123, 92);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+      }
+      
+      .header3 button{
+        width: 200px;
+        height: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:x-large;
+        box-shadow: 3px 2px 25px -1px #141412;
+      }
+      
+      .header3 button:hover{
+        color: black;
+      }
+    
+
+
+/* FOOTER */
+
+/* FOOTER2 */
+
+.footer2{
+  background-color: rgb(63, 78, 79);
+  color: rgb(255, 251, 235);
+  padding: 0.5vw;
+  font-size: large;
+}
+
+.redessocialesfooter a{
+  margin: 0.5vw;
+  text-decoration: none;
+}
+
+.redessocialesfooter img{
+  margin-top: 2vw;
+}
+
+.bazarfooter2{
+  border: solid black;
+}
+
+.btn-wsp{
+    position:fixed;
+    width:30px;
+    height:30px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background-color:rgb(162, 123, 92);
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:1;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background-color: rgb(220, 215, 201);
+}
+.subir img{
+  margin-bottom: 3vw;
+}
+
+.footer2 .col{
+  margin-top: 1vw;
+}
+
+/* FOOTER3 */
+
+.footer3{
+  background-color: rgb(44, 54, 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(236, 249, 255);
+}
+
+
+/* BREACKPOINTS */
+@media (max-width: 1200px){
+  .btn-wsp{
+    display: none;
+  }
+  .subir img{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .main5{
+    display: none;
+  }
+  .header3 button{
+    width: auto;
+  }
+  .main4{
+    margin-bottom: 2vw;
+  }
+  .main1 img{
+    width: 100%;
+    height: 30%;
+  }
+}
+
+@media (max-width: 768px){
+  .main4{
+    margin-bottom: 2vw;
+  }
+  .footer2 .btn-wsp{
+    display: none;
+  }
+  .main1 img{
+    width: 100%;
+    height: 30%;
+  }
+  .header1{
+    height: 2.5vw;
+    width: 100%;
+  }
+  .bazarfooter {
+    display: none;
+  }
+  .footer2 .row{
+    display:flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 576px){
+  .header1{
+    display: none;
+  }
+  .redessocialesfooter{
+    display: none;
+  }
+  .header3 button{
+    font-size:medium;
+  }
+}
+@media (max-width: 400px){
+  .header3 button{
+    font-size:small;
+  }
+}

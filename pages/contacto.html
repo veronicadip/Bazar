@@ -2,14 +2,309 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BS VÍA CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous">
+  <!-- CSS -->
+  <link href="../styles/contacto.css" rel="stylesheet" type="text/css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- TITULO -->
+  <title>Contacto</title>
 </head>
 
 <body>
-    <h1>CONTACTO</h1>
+
+
+  <!-- HEADER -->
+  <header>
+    <!-- header1 -->
+    <div class="header1">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nosotros</a>
+          <a class="navbar-brand" href="#">Preguntas frecuentes</a>
+          <a class="navbar-brand" href="#">Contacto</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- header2 -->
+    <div class="header2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="../assets/logo-bazar.webp" alt="Bazar" width="120" height="70">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./ingresar.html">
+                  <button type="button" class="btn btn-outline-secondary">Ingresar</button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./error404.html">
+                  <button type="button" class="btn btn-outline-success">Registrarse</button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./carrito.html">
+                  <img src="https://cdn-icons-png.flaticon.com/512/711/711979.png" alt="ShoppingCart" width="40" height="40">
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Qué estas buscando?" aria-label="Search">
+              <button type="button" class="btn btn-outline-primary">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- header3 -->
+
+    <div class="header3">
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+          Cocina
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="#">Utensillos de cocina</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Ollas y Sartenes</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Almacenamiento y Organización</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Repostería</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+          Mesa
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="#">Vajillas</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Vasos, Copas y Jarras</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Cubiertos</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Café y Té</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Accesorios de Mesa</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+          Baño
+        </button>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+          Decoración
+        </button>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+          Exterior
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- MAIN -->
+
+
+  <main>
+    <div class="container">
+      <section class="mt-5 mb-5 container col-8">
+        <span>
+          <h1 class="text-primary-emphasis text-center">Contacto</h1>
+        </span>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center ">Número de télefono: 3810000000</li>
+          <li class="list-group-item text-center">Correo: bazar@rollingcode.com.ar</li>
+          <li class="list-group-item text-center">Ubicación: Gral. Paz 576, T4000 San Miguel de Tucumán, Tucumán</li>
+        </ul>
+
+      </section>
+      <div class="col-8 container mb-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.571391998687!2d-65.20329650367431!3d-26.83540849626791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1677615513914!5m2!1ses!2sar"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <form>
+        <h2 class="container col-8 text-primary text-center">¡Queremos conocer tu opinion!</h2>
+        <section class="mt-5 container text-center mb-5 col-8">
+          <div class="mb-3">
+            <label for="exampleFormControlInput0" class="form-label text-secondary">
+              <h5>Nombre</h5>
+            </label>
+            <input type="text" class="form-control" id="exampleFormControlInput0">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-secondary">
+              <h5>Email</h5>
+            </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label text-secondary">
+              <h5>Teléfono</h5>
+            </label>
+            <input type="number" class="form-control" id="exampleFormControlInput2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label text-secondary">
+              <h5>Mensaje</h5>
+            </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+          </div>
+          <div class="d-grid gap-2 col-md-5 mx-auto mb-4 mt-5">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </section>
+      </form>
+
+    </div>
+    <!-- <section class="container">
+      <div class="col-6 col-sm-4">
+        <span><h1 class="text-primary text-center">Contacto</h1></span>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Número de télefono: 3810000000</li>
+          <li class="list-group-item">Correo: bazar@rollingcode.com.ar</li>
+          <li class="list-group-item">Ubicación: Gral. Paz 576, T4000 San Miguel de Tucumán, Tucumán</li>
+        </ul>
+      </div>
+      <section class="container">
+        <div class="row col-sm-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.571391998687!2d-65.20329650367431!3d-26.83540849626791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1677615513914!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </section>
+
+    <section class="container">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </section> -->
+
+    <!-- <div class="container text-center">
+      <div class="row">
+        <div class="col-6 col-sm-4">
+          <span><h1 class="text-primary">Contacto</h1></span>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Número de télefono: 3810000000</li>
+            <li class="list-group-item">Correo: bazar@rollingcode.com.ar</li>
+            <li class="list-group-item">Ubicación: Gral. Paz 576, T4000 San Miguel de Tucumán, Tucumán</li>
+          </ul>
+        </div>
+        <section class="container">
+          <div class="row col-sm-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.571391998687!2d-65.20329650367431!3d-26.83540849626791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1677615513914!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class=" container mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    </div> -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer2">
+      <div class="subir">
+        <a href="#" class="btn-wsp">
+          <img src="https://cdn-icons-png.flaticon.com/512/44/44674.png" alt="FlechaArriba" width="15" height="15">
+        </a>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="./index.html">
+              <img class="bazarfooter2" src="../assets/logo-bazar.webp" alt="Bazar" width="210" height="160">
+            </a>
+          </div>
+          <div class="col">
+            <div class="redessocialesfooter">
+              <h5>
+                <b>Redes sociales</b>
+              </h5>
+              <p>
+                <a href="./pages/error404.html">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                    alt="Instagram" width="30" height="30">
+                </a>
+                <a href="./pages/error404.html">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/599px-Logo_de_Facebook.png" alt="Facebook"
+                    width="30" height="30">
+                </a>
+                <a href="./pages/error404.html">
+                  <img src="https://www.brandemia.org/wp-content/uploads/2012/06/twitter_logo_principal.jpg" alt="Twitter" width="30" height="30">
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="contactofooter">
+              <h5>
+                <b>Contacto</b>
+              </h5>
+
+              <p>Ubicación: Gral. Paz 576, T4000 San Miguel de Tucumán, Tucumán</p>
+              <p>Correo: bazar@rollingcode.com.ar</p>
+              <p>Número de télefono: 3810000000</p>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer3">
+      &copy;Todos los derechos reservados. Bazar-2023
+    </div>
+  </footer>
+
+
+  <!-- JS VIA CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
