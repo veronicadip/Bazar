@@ -2,11 +2,7 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
-h1 {
-    color: blue;
-    
 
-}
 
 /* HEADER */
 
@@ -73,6 +69,14 @@ h1 {
     color: black;
   }
 
+/* MAIN */
+
+body {
+  background-color: #DCD7C9 !important;
+}
+h1 {
+  color: #2C3639;
+}
 
 /* FOOTER */
 
