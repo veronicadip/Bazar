@@ -123,6 +123,19 @@ main{
   font-size: large;
 }
 
+.redessocialesfooter a{
+  margin: 0.5vw;
+  text-decoration: none;
+}
+
+.redessocialesfooter img{
+  margin-top: 2vw;
+}
+
+.bazarfooter2{
+  border: solid black;
+}
+
 .btn-wsp{
     position:fixed;
     width:30px;
@@ -145,6 +158,10 @@ main{
   margin-bottom: 3vw;
 }
 
+.footer2 .col{
+  margin-top: 1vw;
+}
+
 /* FOOTER3 */
 
 .footer3{
@@ -154,6 +171,7 @@ main{
   align-items: center;
   color: rgb(236, 249, 255);
 }
+
 
 
 /* BREACKPOINTS */
