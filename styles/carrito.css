@@ -69,7 +69,7 @@
 .header3 button:hover{
   color: black;
 }
-
+/* MAIN */
 .main1{
   margin-bottom: 2vw;
   margin-top: 4vw;
@@ -101,10 +101,10 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 650px){
+@media (max-width: 690px){
   .main2{
-  padding-left: 0vw;
-  padding-right:0vw;
+  padding-left: 0.5vw;
+  padding-right: 2vw;
   }
 }
 

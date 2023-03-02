@@ -103,8 +103,21 @@ main{
   background-color: rgb(255, 251, 235);
 }
 
-.publicidadadidas{
-  width: 100%;
+.publiciadadidas{
+  margin-top: 1.7vw;  
+	}
+
+/* Breakpoints */
+@media (max-width: 992px){
+.publiciadadidas{
+  margin-bottom: 2vw;
+	}
+}
+
+@media (max-width: 576px){
+ .publiciadadidas{
+    display: none;
+  }
 }
 
 
