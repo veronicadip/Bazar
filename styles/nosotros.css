@@ -85,7 +85,6 @@ main {
 .box-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
 }
 .about {
@@ -121,6 +120,13 @@ main {
 .box-container .box p {
     color: #fff;
 }
+
+@media (max-width: 928px){
+  .box-container{
+        display: flex;
+        flex-wrap: wrap;
+      }
+  }
 
 /* FOOTER */
 
