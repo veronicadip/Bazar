@@ -103,12 +103,18 @@ main{
 
 .imgTransform {
   filter: grayscale(1);
-  transition: filter 1s, transform 1s;
+  transition: filter 1s, transform 1s, box-shadow 1s;
+  box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.53);
+  -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.53);
+  -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.53);
 }
 .imgTransform:hover {
   transform: translateY(-10px);
   filter: grayscale(0);
-  transition: filter 1s, transform 1s;
+  transition: filter 1s, transform 1s, box-shadow 1s;
+  box-shadow: 14px 15px 7px -3px rgba(0,0,0,0.53);
+  -webkit-box-shadow: 14px 15px 7px -3px rgba(0,0,0,0.53);
+  -moz-box-shadow: 14px 15px 7px -3px rgba(0,0,0,0.53);
 }
 
 .publiciadadidas{
