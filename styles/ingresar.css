@@ -102,6 +102,19 @@ main .columnas{
   border: solid black;
 }
 
+.ingresarBoton {
+  background-color: #3F4E4F !important;
+  border: #3F4E4F !important;
+}
+.ingresarBoton:hover {
+  background-color: #223638 !important;
+  border: #223638 !important;
+}
+.ingresarBoton:active {
+  background-color: #3d5658 !important;
+  border: #3d5658 !important;
+}
+
 @media (max-width: 440px){
 .col .bazar{
   width: 70vw;

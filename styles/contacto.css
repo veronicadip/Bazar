@@ -81,7 +81,18 @@ body {
 .colorTitulos {
   color: #2C3639 !important;
 }
-
+.enviarBoton {
+  background-color: #3F4E4F !important;
+  border: #3F4E4F !important;
+}
+.enviarBoton:hover {
+  background-color: #223638 !important;
+  border: #223638 !important;
+}
+.enviarBoton:active {
+  background-color: #3d5658 !important;
+  border: #3d5658 !important;
+}
 
 
 /* FOOTER */

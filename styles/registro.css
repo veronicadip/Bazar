@@ -77,6 +77,18 @@ body {
 h1 {
   color: #2C3639;
 }
+.registBoton {
+  background-color: #3F4E4F !important;
+  border: #3F4E4F !important;
+}
+.registBoton:hover {
+  background-color: #223638 !important;
+  border: #223638 !important;
+}
+.registBoton:active {
+  background-color: #3d5658 !important;
+  border: #3d5658 !important;
+}
 
 /* FOOTER */
 
