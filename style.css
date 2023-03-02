@@ -103,6 +103,11 @@ main{
   background-color: rgb(255, 251, 235);
 }
 
+.publicidadadidas{
+  width: 100%;
+}
+
+
 .main5{
   margin-top: 2vw;
   height: 22vw;
@@ -134,6 +139,19 @@ main{
   font-size: large;
 }
 
+.redessocialesfooter a{
+  margin: 0.5vw;
+  text-decoration: none;
+}
+
+.redessocialesfooter img{
+  margin-top: 2vw;
+}
+
+.bazarfooter2{
+  border: solid black;
+}
+
 .btn-wsp{
     position:fixed;
     width:30px;
@@ -154,6 +172,10 @@ main{
 }
 .subir img{
   margin-bottom: 3vw;
+}
+
+.footer2 .col{
+  margin-top: 1vw;
 }
 
 /* FOOTER3 */

@@ -59,7 +59,6 @@
   .header3 button{
     width: 200px;
     height: 50px;
-    font-family: 'Times New Roman', Times, serif;
     font-size:x-large;
     box-shadow: 3px 2px 25px -1px #141412;
   }
@@ -76,6 +75,11 @@ main {
 }
 .nosotrosContainer {
     padding-bottom: 6rem;
+}
+
+.textoequipo{
+  margin-left: 13vw;
+  margin-right: 13vw;
 }
 
 .box-container {
